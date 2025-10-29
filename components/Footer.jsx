@@ -34,7 +34,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             {
               nav.map((nav, index)=>(
-                <li key={index}><Link href={`/${nav.url}`} className="hover:text-white transition">{nav.label}</Link></li>
+                <li key={index}><Link href={`${nav.url}`} className="hover:text-white transition">{nav.label}</Link></li>
               ))
             }
           </ul>
