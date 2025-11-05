@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Corporate Boss Solutions",
     images: [
       {
-        url: "/images/og-about.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "About Corporate Boss Solutions",

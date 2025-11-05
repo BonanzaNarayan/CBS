@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Corporate Boss Solutions",
     images: [
       {
-        url: "/images/og-careers.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "CBS Internships and Careers",

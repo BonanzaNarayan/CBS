@@ -5,16 +5,15 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { usePathname } from 'next/navigation'
 import MobileNav from './MobileNav'
-import Image from 'next/image'
 
 export default function Header() {
     const pathname = usePathname()
   return (
-    <header className='sticky top-0 py-4 px-8 shadow bg-background/80 backdrop-blur-lg z-50'>
+    <header className='sticky top-0 py-2 px-8 shadow bg-background/80 backdrop-blur-lg z-50'>
         <nav className='flex items-center justify-between'>
             {/* Logo */}
-            <Link href={'/'} className='text-xl font-medium text-white p-1.5 bg-primary rounded-br-4xl rounded-md'>
-                CBS
+            <Link href={'/'}>
+                <img src="/logo.svg" alt="logo" className='w-15 rounded-full' />
             </Link>
             {/* Nav */}
             <ul className='hidden lg:flex items-center gap-2'>
