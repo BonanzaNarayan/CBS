@@ -4,16 +4,9 @@ import { Button } from './ui/button'
 
 export default function Hero() {
   return (
-    <section id='hero' className='min-h-screen flex items-center justify-center px-6 relative bg-gradient-to-br from-background via-blue-50/30 to-indigo-100/20 overflow-hidden'>
+    <section id='hero' className='hero min-h-screen flex items-center justify-center px-6 relative bg-gradient-to-br from-background via-blue-50/30 to-indigo-100/20 overflow-hidden'>
       {/* Background Elements */}
-      <div className='absolute inset-0 overflow-hidden'>
-        <div className='absolute -top-40 -right-32 w-80 h-80 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full blur-3xl'></div>
-        <div className='absolute -bottom-40 -left-32 w-80 h-80 bg-gradient-to-r from-indigo-500/10 to-cyan-500/10 rounded-full blur-3xl'></div>
-        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-slate-200/20 to-gray-300/20 rounded-full blur-3xl'></div>
-        
-        {/* Grid Pattern */}
-        <div className='absolute inset-0 bg-[linear-gradient(rgba(100,116,139,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(100,116,139,0.05)_1px,transparent_1px)] bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,black,transparent)]'></div>
-      </div>
+      
 
       <div className='max-w-6xl mx-auto text-center relative z-10'>
         {/* AI Badge */}
@@ -24,13 +17,13 @@ export default function Hero() {
 
         {/* Main Heading */}
         <div className='w-full mb-8'>
-          <h1 className='mb-6 text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 bg-clip-text text-transparent'>
+          <h1 className='mb-6 text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent'>
             Transform Growth with
             <span className='block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'>
               AI Mentorship
             </span>
           </h1>
-          <p className='text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
+          <p className='text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed'>
             Corporate Boss Solutions bridges the gap between education and enterprise through intelligent AI mentorship — 
             accelerating skill development, career advancement, and organizational performance.
           </p>

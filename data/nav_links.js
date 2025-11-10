@@ -16,6 +16,10 @@ export const nav = [
         url: '/internships-and-careers'
     },
     {
+        label: 'Teams',
+        url: '/teams'
+    },
+    {
         label: 'About Us',
         url: '/about-us'
     },
