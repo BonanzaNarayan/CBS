@@ -1,29 +1,31 @@
+import { Globe } from 'lucide-react';
 import React from 'react'
 
 function Teams() {
   const teamMembers = [
     {
       id: 1,
-      name: "Sarah Johnson",
+      name: "Joseph Wirem",
       position: "CEO & Founder",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
-      description: "Leading our company with vision and passion for innovation.",
+      image: "/teams/ceo.jpg",
+      description: "Visionary Force Behind Corporate Boss Solutions",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "#"
+        linkedin: "https://www.linkedin.com/in/joseph-wirem/?originalSubdomain=gh",
+        twitter: "https://x.com/corporate__BS",
+        email: "mailto:corporatebosssolutions@gmail.com"
       }
     },
     {
       id: 2,
-      name: "Michael Chen",
+      name: "Bonanza Narayan",
       position: "CTO",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       description: "Driving technological innovation and product development.",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#"
+        linkedin: "https://www.linkedin.com/in/bonanzanarayan/",
+        twitter: "https://x.com/svddiin",
+        github: "https://github.com/BonanzaNarayan",
+        website: "https://bonanzanarayan.netlify.app/"
       }
     },
     {
@@ -76,7 +78,8 @@ function Teams() {
         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
         </svg>
-      )
+      ),
+      website: <Globe />
     };
 
     return (
@@ -142,7 +145,7 @@ function Teams() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member) => (
-              <div
+              <article
                 key={member.id}
                 className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
               >
@@ -176,7 +179,7 @@ function Teams() {
                     ))}
                   </div>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>
