@@ -15,10 +15,10 @@ export const nav = [
         label: 'Internships And Careers',
         url: '/internships-and-careers'
     },
-    {
-        label: 'Teams',
-        url: '/teams'
-    },
+    // {
+    //     label: 'Teams',
+    //     url: '/teams'
+    // },
     {
         label: 'About Us',
         url: '/about-us'
