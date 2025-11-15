@@ -58,7 +58,7 @@ export default function ContactPage() {
               <Mail className="text-blue-600 w-6 h-6 mt-1" />
               <div>
                 <h3 className="font-semibold text-gray-900">Email</h3>
-                <p className="text-gray-700">corporatebosssolutions@gmail.com</p>
+                <p className="text-gray-700">info@corporateboss-solutions.com</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
@@ -89,7 +89,7 @@ export default function ContactPage() {
 
         {/* Right: Contact Form */}
         <form
-          action='https://formsubmit.co/corporatebosssolutions@gmail.com'
+          action='https://formsubmit.co/info@corporateboss-solutions.com'
           method="POST"
           className="bg-white shadow-lg rounded-2xl p-8"
         >
