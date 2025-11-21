@@ -21,7 +21,7 @@ export const nav = [
     // },
     {
         label: 'About Us',
-        url: '/about-us'
+        url: '/about'
     },
     {
         label: 'Contact',
