@@ -63,12 +63,6 @@ export default function ServicesPage() {
                   <p className="text-lg text-gray-600 leading-relaxed">
                     {service.shortDescription}
                   </p>
-                  
-                  <p className="text-gray-500 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam.
-                  </p>
                 </div>
 
                 {/* Features List */}
